@@ -1,4 +1,4 @@
-![Logo del centro](./banner-dam.png)
+![Logo del centro](../banner-dam.png)
 
 # 👩‍🏫 Organización GitHub · Ciclo DAM (1.º y 2.º)
 > Repositorios, tareas y evaluación continua con GitHub Classroom y GitHub Actions
