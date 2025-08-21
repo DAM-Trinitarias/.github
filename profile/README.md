@@ -5,10 +5,8 @@
 
 ## 📌 Enlaces rápidos
 - 📚 **Guía del estudiante** → `docs/guia-estudiante.md`
-- 🧑‍🏫 **Guía del profesorado** → `docs/guia-profesorado.md`
 - 🧪 **Política de tests y autogrado** → `docs/politica-tests.md`
-- 🛠️ **Plantillas por asignatura** → `https://github.com/<ORG>/?q=plantilla&type=all`
-- 🏫 **GitHub Classroom (tablero de tareas)**:
+- 🏫 **GitHub Classroom**:
   | Módulo | Curso | Classroom |
   |-------|------:|-----------|
   | Programación | 1.º DAM | <enlace>
@@ -31,19 +29,16 @@ Centralizar el desarrollo, la entrega y la evaluación formativa/sumativa del ci
 - **Flujo automatizado** de corrección (CI) en cada *push*.
 - **Feedback inmediato** de errores y resultados de tests.
 - **Protección de ficheros de evaluación** para garantizar la integridad.
-- **Autonomía del profesorado**: cada docente gestiona su módulo y sus tareas.
 
 ---
 
 ## 🧩 Estructura de la organización
 - **Equipos de profesorado por módulo**  
-  `DAM1-Programacion-Profes`, `DAM2-DesarrolloInterfaces-Profes`, … (permiso *Admin* en sus repos).
+  `1DAM-Programacion`, `2DAM-DesarrolloInterfaces`, … (permiso *Admin* en sus repos).
 - **Equipos de alumnado por cohorte**  
-  `DAM1-Programacion-2025-Alumnos`, … (permiso *Write* en repos de tarea).
-- **Repositorios de plantilla por módulo**  
-  `dam1-programacion-plantilla`, `dam2-desarrollo-interfaces-plantilla`, …
+  `DAM1-Programacion-2025`, … (permiso *Write* en repos de tarea).
 - **Repositorios de tareas (creados por Classroom)**  
-  `tarea-<modulo>-<apellido1-apellido2>-<usuario>`
+  `tarea-<modulo>-<apellido1-apellido2>`
 
 ---
 
