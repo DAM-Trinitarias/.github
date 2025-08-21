@@ -4,7 +4,7 @@
 > Repositorios, tareas y evaluación continua con GitHub Classroom y GitHub Actions
 
 ## 📌 Enlaces rápidos
-- 📚 **Guía del estudiante** → `docs/guia-estudiante.md`
+- 📚 **Guía del estudiante** → `docs/guia-del-estudiante.md`
 - 🧪 **Política de tests y autogrado** → `docs/politica-tests.md`
 - 🏫 **GitHub Classroom**:
   | Módulo | Curso | Classroom |
