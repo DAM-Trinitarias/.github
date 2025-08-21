@@ -1,4 +1,4 @@
-# .# 👩‍🏫 Organización GitHub · Ciclo DAM (1.º y 2.º)
+# 👩‍🏫 Organización GitHub · Ciclo DAM (1.º y 2.º)
 > Repositorios, tareas y evaluación continua con GitHub Classroom y GitHub Actions
 
 ![Logo del centro](./profile/logo.png)
@@ -80,4 +80,46 @@ Centralizar el desarrollo, la entrega y la evaluación formativa/sumativa del ci
 ---
 
 ## 🧪 Evaluación automática (CI)
-Cada *push* ej
+Cada *push* ejecuta:
+- **Compilación** y **tests** (JUnit / Jest / etc.).
+- **Informe de tests** con anotaciones en línea.
+- (Opcional) **Análisis estático** (CodeQL/Sonar) y **formato/linter**.
+
+**Estados del *check***:
+- ✅ **Passing**: ejercicio correcto.
+- ❌ **Failing**: ver pestaña **Actions** → job → logs/anotaciones para el **motivo** (mensaje de error de test, línea, ruta).
+
+---
+
+## 🛠️ Tecnologías por módulo (plantillas)
+| Módulo | Stack base | Tests | Linter/Estilo |
+|-------|------------|-------|----------------|
+| Programación (1.º) | Java 21 + Maven | JUnit5 + Surefire | Checkstyle/Spotless |
+| Desarrollo de Interfaces (2.º) | Node 20 + Vite/React | Jest + Testing Library | ESLint + Prettier |
+| Acceso a Datos (2.º) | Kotlin + Gradle | JUnit5 | ktlint/Detekt |
+| Programación MDM (2.º) | React Native (Expo) | Jest | ESLint + Prettier |
+| SGE (2.º) | Docker + Spring Boot / Node | JUnit/Jest | Hadolint/ESLint |
+
+> Cada repo plantilla incluye `/test`, configuración de CI y README de la práctica.
+
+---
+
+## 📦 Reutilización de Workflows
+- Repo de la organización **`.github`** con *workflows reutilizables*.
+- Cada tarea llama a ese workflow común: configuración homogénea, mantenimiento centralizado.
+
+---
+
+## 📣 Comunicación y soporte
+- **Dudas técnicas del ejercicio**: abrir *Issue* en el repo de la tarea.
+- **Dudas generales del módulo**: canal de clase (Discord/Teams) del módulo.
+- **Incidencias de la organización**: abrir *Issue* en `org-support`.
+
+Plantilla de *Issue* para alumnos:
+```text
+Título: [Módulo][Unidad] Breve descripción del problema
+Descripción: ¿Qué intentabas hacer? ¿Qué error te da CI? (Pega el mensaje)
+Pasos reproducibles:
+1. …
+2. …
+Salida/Logs relevantes:
